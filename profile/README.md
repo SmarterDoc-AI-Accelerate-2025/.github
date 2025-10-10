@@ -28,7 +28,13 @@ Our north star: **Trustworthy, transparent, and evidence-based healthcare naviga
 - Deliverables: hosted demo, public repo, 3-minute video
 
 ## 👩‍💻 Team
-We’re a team of developers, data scientists, and designers passionate about building **AI-powered healthcare solutions**.  
+We’re a team of developers and designers passionate about building **AI-powered healthcare solutions**.  
+
+### Data Disclaimer
+
+This project uses publicly available information about medical professionals (e.g., names, specialties, and practice locations) strictly for demonstration and educational purposes during the AI-Accelerate Hackathon.
+All profile photos or biographical data are sourced from public physician directories and are not stored, redistributed, or used for any commercial purpose.
+Any data will be deleted after the hackathon ends.
 
 ---
 
