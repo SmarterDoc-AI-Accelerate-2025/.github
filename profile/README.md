@@ -1,41 +1,84 @@
-# SmarterDoc — AI Accelerate 2025 Hackathon
+# SmarterDoc AI
 
-Welcome to the **SmarterDoc-AI-Accelerate-2025** GitHub organization!  
-This is our team’s official home for the **Google Cloud AI Accelerate: Unlocking New Frontiers Hackathon**.
+**SmarterDoc AI** is an intelligent healthcare platform designed to help patients, families, and physicians connect with the right medical specialists — clearly, fairly, and transparently.
 
-## 🌟 Project Overview
-SmarterDoc is an **evidence-backed specialist finder** that helps patients, families, and physicians:
-- Search for doctors by condition, insurance, and location
-- See transparent ranking factors (experience, publications, in-network status, distance)
-- View citations from PubMed, NPI records, and conference profiles
-- Estimate procedure costs with regional benchmarks
-- Book or simulate appointments with automated assistant workflows
-
-Our north star: **Trustworthy, transparent, and evidence-based healthcare navigation.**
-
-## Tech Stack
-- **Frontend:** Next.js + Tailwind (Cloud Run)
-- **Backend:** FastAPI / Node.js (Cloud Run)
-- **Data & AI:** Google Cloud (BigQuery, Vertex AI, Elastic, Fivetran)
-- **Infra:** Cloud Run + Docker + GitHub Actions (CI/CD)
-
-## Repositories
-- [`smarterdoc-frontend`](https://github.com/SmarterDoc-AI-Accelerate-2025/smarterdoc-frontend) — Next.js app (UI/UX)
-- [`smarterdoc-backend`](https://github.com/SmarterDoc-AI-Accelerate-2025/smarterdoc-backend) — APIs, indexing, retrieval, ranking
-
-## Timeline
-- Hackathon deadline: **October 24, 2025**
-- Deliverables: hosted demo, public repo, 3-minute video
-
-## 👩‍💻 Team
-We’re a team of developers and designers passionate about building **AI-powered healthcare solutions**.  
-
-### Data Disclaimer
-
-This project uses publicly available information about medical professionals (e.g., names, specialties, and practice locations) strictly for demonstration and educational purposes during the AI-Accelerate Hackathon.
-All profile photos or biographical data are sourced from free stock photos or generated from Midjourney and are not the actual images of the doctors, although the doctor data is real.
-Any data will be deleted after the hackathon ends.
+Our mission is to build **trustworthy, evidence-based healthcare navigation** by combining verified medical data, transparent ranking factors, and seamless appointment workflows.
 
 ---
 
-✨ Stay tuned for updates as we build SmarterDoc for the Google Cloud Hackathon!
+## Overview
+
+SmarterDoc helps users:
+
+* **Find the right doctor** by condition, insurance, and location
+* **Understand rankings** based on experience, publications, and patient access
+* **View verified sources** such as NPI Registry, PubMed, and conference profiles
+* **Estimate procedure costs** using regional benchmarks
+* **Book or simulate appointments** with guided assistance
+
+The platform bridges structured healthcare data with modern AI-powered recommendations to make finding care **more transparent, data-driven, and personal**.
+
+---
+
+## Architecture
+
+| Layer              | Description                                             | Technology                               |
+| ------------------ | ------------------------------------------------------- | ---------------------------------------- |
+| **Frontend**       | Web application for search, visualization, and booking  | Next.js 14, Tailwind CSS, TypeScript     |
+| **Backend**        | API and data services for search, ranking, and analysis | FastAPI, Python 3.11+, Docker            |
+| **Infrastructure** | Cloud deployment and CI/CD automation                   | Google Cloud Run, Docker, GitHub Actions |
+| **Data & AI**      | Healthcare data processing, retrieval, and analysis     | BigQuery, Vertex AI, Elastic, Fivetran   |
+
+---
+
+## Live Deployments
+
+**Frontend:**
+[https://smarterdoc-frontend-1094971678787.us-central1.run.app](https://smarterdoc-frontend-1094971678787.us-central1.run.app)
+
+**Backend:**
+[https://smarterdoc-backend-1094971678787.us-central1.run.app](https://smarterdoc-backend-1094971678787.us-central1.run.app)
+
+---
+
+## Key Features
+
+* **AI-Recommended Specialists** — discover doctors tailored to patient needs
+* **Real-Time Search** — filter by specialty, insurance, and proximity
+* **Interactive Map Visualization** — view nearby providers instantly
+* **Transparent Profiles** — verified from public healthcare databases
+* **Appointment Flow** — from selection to booking confirmation
+* **Responsive UI** — optimized for desktop and mobile
+
+---
+
+## Repositories
+
+* [**smarterdoc-frontend**](https://github.com/SmarterDoc-AI-Accelerate-2025/smarterdoc-frontend) — Next.js application (UI/UX, maps, booking flow)
+* [**smarterdoc-backend**](https://github.com/SmarterDoc-AI-Accelerate-2025/smarterdoc-backend) — FastAPI service with indexing, retrieval, and analytics tools
+
+---
+
+## Development & Deployment
+
+Both frontend and backend can be deployed independently or together using Docker and Google Cloud Run.
+
+* CI/CD managed via **GitHub Actions**
+* Environment variables configured through `.env` files
+* Backend includes tools for **NPI Registry data extraction** and analysis
+
+For local setup and deployment instructions, see each repository’s README.
+
+---
+
+## Data Sources & Disclaimer
+
+SmarterDoc uses publicly available healthcare information (such as NPI Registry and PubMed) strictly for demonstration and educational purposes.
+Profile images are either stock photos or AI-generated placeholders and do not depict actual medical professionals.
+
+---
+
+## Team
+
+We’re a multidisciplinary group of engineers and designers dedicated to improving healthcare access through technology.
+SmarterDoc AI continues to evolve — our long-term goal is to make **data-driven, transparent healthcare navigation** accessible to everyone.
