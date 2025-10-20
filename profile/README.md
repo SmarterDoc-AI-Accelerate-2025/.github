@@ -82,7 +82,3 @@ Profile images are either stock photos or AI-generated placeholders and do not d
 
 We’re a multidisciplinary group of engineers and designers dedicated to improving healthcare access through technology.
 SmarterDoc AI continues to evolve — our long-term goal is to make **data-driven, transparent healthcare navigation** accessible to everyone.
-
----
-
-Would you like me to make a **version with a short tagline section (for GitHub org description + website tagline)** as well — e.g. one-line summary and topics list (`healthcare`, `ai`, `doctor-finder`, etc.)?
