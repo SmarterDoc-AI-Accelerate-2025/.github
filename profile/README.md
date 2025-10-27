@@ -2,6 +2,8 @@
 
 **SmarterDoc AI** is an intelligent healthcare platform designed to help patients, families, and physicians connect with the right medical specialists — clearly, fairly, and transparently.
 
+[▶ Watch our demo video](https://www.youtube.com/watch?v=TZyxbZrWwQk&t=4s)
+
 Our mission is to build **trustworthy, evidence-based healthcare navigation** by combining verified medical data, transparent ranking factors, and seamless appointment workflows.
 
 ---
