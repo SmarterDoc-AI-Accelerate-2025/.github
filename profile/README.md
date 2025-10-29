@@ -58,6 +58,7 @@ The platform bridges structured healthcare data with modern AI-powered recommend
 
 * [**smarterdoc-frontend**](https://github.com/SmarterDoc-AI-Accelerate-2025/smarterdoc-frontend) — Next.js application (UI/UX, maps, booking flow)
 * [**smarterdoc-backend**](https://github.com/SmarterDoc-AI-Accelerate-2025/smarterdoc-backend) — FastAPI service with indexing, retrieval, and analytics tools
+* [**fivetran-data-connectors**](https://github.com/SmarterDoc-AI-Accelerate-2025/smarterdoc-data-connectors) - Fivetran data connectors 
 
 ---
 
