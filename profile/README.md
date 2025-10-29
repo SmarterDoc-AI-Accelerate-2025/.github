@@ -29,7 +29,7 @@ The platform bridges structured healthcare data with modern AI-powered recommend
 | **Frontend**       | Web application for search, visualization, and booking  | Next.js 14, Tailwind CSS, TypeScript     |
 | **Backend**        | API and data services for search, ranking, and analysis | FastAPI, Python 3.11+, Docker            |
 | **Infrastructure** | Cloud deployment and CI/CD automation                   | Google Cloud Run, Docker, GitHub Actions |
-| **Data & AI**      | Healthcare data processing, retrieval, and analysis     | BigQuery, Vertex AI, Elastic, Fivetran   |
+| **Data & AI**      | Healthcare data processing, retrieval, and analysis     | BigQuery, Vertex AI, Fivetran   |
 
 ---
 
